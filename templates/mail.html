@@ -1,0 +1,6 @@
+<form action="/send" method="POST">{% csrf_token %}
+<p style="font-size: medium;">Message inputed here is sent to all users</p>
+<input name = "mail" placeholder="Input Message Here" type="text">
+<button>Submit</button>
+<a href = "/admin/Pages/user_create/" class = "button" > Go Back</a>
+</form>
