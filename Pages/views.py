@@ -6,6 +6,9 @@ from django.core.mail import send_mail
 from Test.settings import EMAIL_HOST_USER
 
 # Create your views here.
+def welcome(request):
+    
+    return render(request, 'welcome.html')
 def home(request):
     
     return render(request, 'index.html')

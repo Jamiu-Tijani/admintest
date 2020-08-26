@@ -18,6 +18,7 @@ from django.urls import path
 from Pages.views import *
 
 urlpatterns = [
+    path('', welcome),
     path('send', send),
     path('sendmail' ,sendmail),
     path('process', process),
